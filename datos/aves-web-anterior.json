@@ -1,0 +1,48 @@
+{
+  "fuente": "https://www.avesdeceuta.com/wp/",
+  "fechaConsulta": "2026-10-08",
+  "estado": "Extracción inicial parcial a partir de fichas indexadas. No equivale al catálogo completo ni a una revisión taxonómica.",
+  "especies": [
+    {
+      "nombreComun": "Garceta común",
+      "longitudCm": { "min": 55, "max": 65 },
+      "envergaduraCm": { "min": 88, "max": 105 },
+      "fuente": "https://www.avesdeceuta.com/wp/index.php/portfolios/garceta-comun/"
+    },
+    {
+      "nombreComun": "Alca común",
+      "longitudCm": { "min": 37, "max": 39 },
+      "envergaduraCm": { "min": 63, "max": 67 },
+      "fuente": "https://www.avesdeceuta.com/wp/index.php/portfolios/alca-comun/"
+    },
+    {
+      "nombreComun": "Gaviota patiamarilla",
+      "longitudCm": { "min": 55, "max": 65 },
+      "envergaduraCm": { "min": 130, "max": 150 },
+      "fuente": "https://www.avesdeceuta.com/wp/index.php/portfolios/gaviota-patiamarilla/"
+    },
+    {
+      "nombreComun": "Vuelvepiedras común",
+      "longitudCm": { "min": 21, "max": 24 },
+      "envergaduraCm": { "min": 44, "max": 49 },
+      "fuente": "https://www.avesdeceuta.com/wp/index.php/portfolios/vuelvepiedras-comun/"
+    },
+    {
+      "nombreComun": "Halcón peregrino",
+      "longitudCm": { "min": 40, "max": 50 },
+      "envergaduraCm": { "min": 95, "max": 115 },
+      "fuente": "https://www.avesdeceuta.com/wp/index.php/portfolios/halcon-peregrino/"
+    },
+    {
+      "nombreComun": "Alcatraz atlántico",
+      "longitudCm": { "min": 90, "max": 100 },
+      "envergaduraCm": { "min": 165, "max": 180 },
+      "fuente": "https://www.avesdeceuta.com/wp/index.php/portfolios/alcatraz-atlantico/"
+    }
+  ],
+  "pendiente": [
+    "Recuperar el catálogo y las fichas completas cuando respondan las páginas originales.",
+    "Contrastar nombres científicos y medidas que presenten inconsistencias.",
+    "Recopilar autoría y condiciones de reutilización de textos y fotografías."
+  ]
+}

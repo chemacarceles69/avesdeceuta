@@ -1,0 +1,16 @@
+.hero-photo{display:block;width:100%;aspect-ratio:1897/2400;object-fit:cover;object-position:center;border-radius:160px 160px 3px 3px}
+.card .photo-card{display:block;position:relative;padding:0;width:100%;aspect-ratio:4/3;overflow:hidden;background:#e5e9dd;border:0;cursor:pointer}
+.photo-card img{width:100%;height:100%;object-fit:cover;transition:transform .4s}.photo-card:hover img{transform:scale(1.035)}
+.photo-count{position:absolute;right:12px;bottom:12px;color:white;background:#193c31cc;padding:6px 9px;font-size:10px;border-radius:3px}
+.more-wrap{text-align:center;margin-top:32px}.more-wrap button{border:0;cursor:pointer}.more-wrap button[hidden]{display:none}
+body.gallery-open{overflow:hidden}
+dialog#detail{position:fixed;inset:0;width:100%;height:100%;height:100dvh;max-width:none;max-height:none;margin:0;padding:70px 5% 45px;border:0;border-radius:0;overflow-y:auto;overscroll-behavior:contain;scrollbar-gutter:stable}
+dialog .close{position:fixed;top:18px;right:24px;z-index:2;float:none;background:var(--paper);border:1px solid var(--line);border-radius:50%;width:48px;height:48px;box-shadow:0 3px 15px #213e3112}
+.species-intro{max-width:1100px;margin:0 auto 32px}.species-intro h2{font-size:clamp(42px,5vw,72px);margin:18px 0 12px;max-width:900px;overflow-wrap:anywhere}
+.species-meta{display:flex;align-items:center;gap:24px;flex-wrap:wrap;font-size:11px;color:var(--muted)}
+.bird-text{border-top:1px solid var(--line);margin-top:24px;padding:16px 0 0}.bird-text summary{cursor:pointer;font-size:13px;min-height:28px}.bird-text p{max-width:760px}.bird-text .source-note{font-size:11px}.bird-text .measurements{color:var(--ink);font-size:12px}
+.photo-stream{max-width:1100px;margin:0 auto}.photo-stream figure{margin:0 0 45px}.photo-stream img{display:block;width:100%;height:auto;background:#e5e9dd;border-radius:3px}.photo-stream figcaption{display:flex;justify-content:space-between;gap:20px;margin-top:12px;color:var(--muted);font-size:10px;letter-spacing:1px}
+.gallery-end{text-align:center;margin:25px auto 0}.gallery-end p{font-size:12px}.gallery-end button{border:0;cursor:pointer;margin-top:8px}
+@media(max-width:1100px){.controls{flex-wrap:wrap}}
+@media(max-width:600px){dialog#detail{padding:76px 16px 36px}dialog .close{top:12px;right:14px}.photo-stream figure{margin-bottom:30px}.photo-stream figcaption{font-size:9px;letter-spacing:.4px}.controls .filters button{min-height:44px}}
+@media(prefers-reduced-motion:reduce){.photo-card img{transition:none}}
